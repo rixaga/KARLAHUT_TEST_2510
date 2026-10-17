@@ -1,0 +1,40 @@
+name: Sinkronisasi Data Karhutla Dit. PD BNPB
+
+on:
+  schedule:
+    # Sinkronisasi berkala setiap 3 jam
+    - cron: '0 */3 * * *'
+  workflow_dispatch:
+
+jobs:
+  fetch-and-commit:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Jalankan Pipeline Pengambilan Data NASA FIRMS
+        env:
+          FIRMS_MAP_KEY: ${{ secrets.FIRMS_MAP_KEY }}
+        run: |
+          python scripts/fetch_data.py
+
+      - name: Commit & Push Pembaruan Data
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add public/data/
+          if git diff --staged --quiet; then
+            echo "Tidak ada perubahan data baru."
+          else
+            git commit -m "chore(data): pembaruan otomatis observasi hotspot & manifest BNPB [skip ci]"
+            git push
+          fi

@@ -1,0 +1,68 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.1642,
+          0.3125
+        ]
+      },
+      "properties": {
+        "id": "DEMO-HS-01",
+        "source": "NASA_FIRMS",
+        "acq_date": "2026-10-17",
+        "acq_time": "13:42",
+        "satellite": "VIIRS-SNPP (Sampel Pengujian)",
+        "confidence": "high",
+        "frp": 38.4,
+        "brightness": 334.8,
+        "provenance": "DEMO_BELUM_TERVERIFIKASI"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.185,
+          -3.421
+        ]
+      },
+      "properties": {
+        "id": "DEMO-HS-02",
+        "source": "NASA_FIRMS",
+        "acq_date": "2026-10-17",
+        "acq_time": "14:02",
+        "satellite": "VIIRS-SNPP (Sampel Pengujian)",
+        "confidence": "high",
+        "frp": 45.2,
+        "brightness": 341.5,
+        "provenance": "DEMO_BELUM_TERVERIFIKASI"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.825,
+          -2.145
+        ]
+      },
+      "properties": {
+        "id": "DEMO-HS-03",
+        "source": "NASA_FIRMS",
+        "acq_date": "2026-10-17",
+        "acq_time": "13:58",
+        "satellite": "NOAA-20 (Sampel Pengujian)",
+        "confidence": "nominal",
+        "frp": 26.8,
+        "brightness": 329.0,
+        "provenance": "DEMO_BELUM_TERVERIFIKASI"
+      }
+    }
+  ]
+}

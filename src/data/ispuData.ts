@@ -1,0 +1,137 @@
+import type { ISPUSiteRecord } from '../types/karhutla.ts';
+
+/**
+ * DATA SAMPEL STASIUN ISPU - BELUM TERVERIFIKASI TELEMETRI AKTUAL
+ * Label Integritas: DEMO_BELUM_TERVERIFIKASI
+ * 
+ * Nilai konsentrasi partikulat PM2.5 dan indeks ISPU berikut adalah sampel pengujian antarmuka.
+ * Pembacaan resmi kualitas udara ambien diperoleh melalui pengunggahan data berkas resmi KLHK.
+ */
+export const OFFICIAL_ISPU_RECORDS: ISPUSiteRecord[] = [
+  {
+    stationId: 'DEMO-ISPU-RIAU-01',
+    stationName: 'Stasiun AQMS Pekanbaru (Tampan - Demo)',
+    province: 'Riau',
+    city: 'Kota Pekanbaru',
+    timestamp: '2026-10-17 14:00 WIB',
+    pm25: 68.4,
+    pm10: 55.2,
+    co: 12.0,
+    so2: 18.5,
+    no2: 14.1,
+    o3: 32.0,
+    maxParam: 'PM2.5',
+    ispuValue: 124,
+    category: 'TIDAK_SEHAT',
+    source: 'DEMO_AQMS',
+    provenance: 'DEMO_BELUM_TERVERIFIKASI'
+  },
+  {
+    stationId: 'DEMO-ISPU-RIAU-02',
+    stationName: 'Stasiun AQMS Dumai (Bukit Kapur - Demo)',
+    province: 'Riau',
+    city: 'Kota Dumai',
+    timestamp: '2026-10-17 14:00 WIB',
+    pm25: 54.0,
+    pm10: 48.0,
+    co: 9.5,
+    so2: 12.0,
+    no2: 10.2,
+    o3: 28.4,
+    maxParam: 'PM2.5',
+    ispuValue: 98,
+    category: 'SEDANG',
+    source: 'DEMO_AQMS',
+    provenance: 'DEMO_BELUM_TERVERIFIKASI'
+  },
+  {
+    stationId: 'DEMO-ISPU-SUMSEL-01',
+    stationName: 'Stasiun AQMS Palembang (Jakabaring - Demo)',
+    province: 'Sumatera Selatan',
+    city: 'Kota Palembang',
+    timestamp: '2026-10-17 14:00 WIB',
+    pm25: 84.5,
+    pm10: 72.1,
+    co: 16.4,
+    so2: 22.0,
+    no2: 19.5,
+    o3: 35.8,
+    maxParam: 'PM2.5',
+    ispuValue: 158,
+    category: 'TIDAK_SEHAT',
+    source: 'DEMO_AQMS',
+    provenance: 'DEMO_BELUM_TERVERIFIKASI'
+  },
+  {
+    stationId: 'DEMO-ISPU-JAMBI-01',
+    stationName: 'Stasiun AQMS Kota Jambi (Kotabaru - Demo)',
+    province: 'Jambi',
+    city: 'Kota Jambi',
+    timestamp: '2026-10-17 14:00 WIB',
+    pm25: 42.0,
+    pm10: 38.5,
+    co: 8.0,
+    so2: 11.2,
+    no2: 9.8,
+    o3: 24.0,
+    maxParam: 'PM2.5',
+    ispuValue: 76,
+    category: 'SEDANG',
+    source: 'DEMO_AQMS',
+    provenance: 'DEMO_BELUM_TERVERIFIKASI'
+  },
+  {
+    stationId: 'DEMO-ISPU-KALTENG-01',
+    stationName: 'Stasiun AQMS Palangka Raya (Bundaran Besar - Demo)',
+    province: 'Kalimantan Tengah',
+    city: 'Kota Palangka Raya',
+    timestamp: '2026-10-17 14:00 WIB',
+    pm25: 112.5,
+    pm10: 95.0,
+    co: 22.0,
+    so2: 24.5,
+    no2: 18.0,
+    o3: 40.2,
+    maxParam: 'PM2.5',
+    ispuValue: 185,
+    category: 'TIDAK_SEHAT',
+    source: 'DEMO_AQMS',
+    provenance: 'DEMO_BELUM_TERVERIFIKASI'
+  },
+  {
+    stationId: 'DEMO-ISPU-KALBAR-01',
+    stationName: 'Stasiun AQMS Pontianak (Dinas LH - Demo)',
+    province: 'Kalimantan Barat',
+    city: 'Kota Pontianak',
+    timestamp: '2026-10-17 14:00 WIB',
+    pm25: 58.0,
+    pm10: 49.2,
+    co: 11.0,
+    so2: 14.0,
+    no2: 12.5,
+    o3: 30.0,
+    maxParam: 'PM2.5',
+    ispuValue: 104,
+    category: 'TIDAK_SEHAT',
+    source: 'DEMO_AQMS',
+    provenance: 'DEMO_BELUM_TERVERIFIKASI'
+  },
+  {
+    stationId: 'DEMO-ISPU-KALSEL-01',
+    stationName: 'Stasiun AQMS Banjarbaru (Perkantoran Prov - Demo)',
+    province: 'Kalimantan Selatan',
+    city: 'Kota Banjarbaru',
+    timestamp: '2026-10-17 14:00 WIB',
+    pm25: 38.5,
+    pm10: 32.0,
+    co: 7.2,
+    so2: 9.5,
+    no2: 8.4,
+    o3: 22.1,
+    maxParam: 'PM2.5',
+    ispuValue: 68,
+    category: 'SEDANG',
+    source: 'DEMO_AQMS',
+    provenance: 'DEMO_BELUM_TERVERIFIKASI'
+  }
+];

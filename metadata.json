@@ -1,0 +1,6 @@
+{
+  "name": "Dashboard Peringatan Dini Karhutla Nasional - Dit. PD BNPB",
+  "description": "Sistem Informasi dan Dasbor Peringatan Dini Karhutla Terpadu Direktorat Peringatan Dini BNPB, mengintegrasikan NASA FIRMS, SiPongi KLHK, InaRISK, BMKG FDRS, IRBI 2025, dan ISPU KLH.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,50 @@
+{
+  "generatedAt": "2026-10-17T13:38:57.285234+00:00",
+  "application": "Dashboard Peringatan Dini Karhutla Nasional - Dit. PD BNPB",
+  "sources": {
+    "firms": {
+      "name": "NASA FIRMS Area API (VIIRS/MODIS)",
+      "status": "BELUM_TERKONFIGURASI_DEMO",
+      "count": 3,
+      "period": "7 Hari Terakhir & NRT",
+      "provenance": "DEMO_BELUM_TERVERIFIKASI"
+    },
+    "sipongi": {
+      "name": "KLHK SiPongi+ (Ditjen PPI)",
+      "status": "BERKAS_TERSEDIA",
+      "count": 0,
+      "period": "Siap Terima Impor Resmi",
+      "provenance": "RESMI_TERVERIFIKASI"
+    },
+    "inarisk": {
+      "name": "InaRISK ArcGIS REST ImageServer",
+      "endpoint": "https://gis.bnpb.go.id/arcgis/rest/services/inaRISK",
+      "status": "ONLINE",
+      "provenance": "RESMI_TERVERIFIKASI"
+    },
+    "bmkg": {
+      "name": "Sistem Peringkat Bahaya Kebakaran (FDRS) BMKG",
+      "period": "Hari Ini & Prakiraan 10 Hari",
+      "status": "DEMO_BELUM_TERVERIFIKASI",
+      "provenance": "DEMO_BELUM_TERVERIFIKASI"
+    },
+    "irbi": {
+      "name": "IRBI 2025 (Dit. PERB BNPB)",
+      "totalRegencies": 20,
+      "status": "DEMO_BELUM_TERVERIFIKASI",
+      "provenance": "DEMO_BELUM_TERVERIFIKASI"
+    },
+    "ispu": {
+      "name": "ISPU Stasiun AQMS Ditjen PPKL KLHK",
+      "stationsCount": 10,
+      "status": "DEMO_BELUM_TERVERIFIKASI",
+      "provenance": "DEMO_BELUM_TERVERIFIKASI"
+    },
+    "pusdatin": {
+      "name": "Pusdatin BNPB (Catatan Kejadian & Penanganan)",
+      "incidentCount": 6,
+      "status": "DEMO_BELUM_TERVERIFIKASI",
+      "provenance": "DEMO_BELUM_TERVERIFIKASI"
+    }
+  }
+}
