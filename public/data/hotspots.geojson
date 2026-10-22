@@ -13,7 +13,7 @@
       "properties": {
         "id": "DEMO-HS-01",
         "source": "NASA_FIRMS",
-        "acq_date": "2026-10-21",
+        "acq_date": "2026-10-22",
         "acq_time": "13:42",
         "satellite": "VIIRS-SNPP (Sampel Pengujian)",
         "confidence": "high",
@@ -34,7 +34,7 @@
       "properties": {
         "id": "DEMO-HS-02",
         "source": "NASA_FIRMS",
-        "acq_date": "2026-10-21",
+        "acq_date": "2026-10-22",
         "acq_time": "14:02",
         "satellite": "VIIRS-SNPP (Sampel Pengujian)",
         "confidence": "high",
@@ -55,7 +55,7 @@
       "properties": {
         "id": "DEMO-HS-03",
         "source": "NASA_FIRMS",
-        "acq_date": "2026-10-21",
+        "acq_date": "2026-10-22",
         "acq_time": "13:58",
         "satellite": "NOAA-20 (Sampel Pengujian)",
         "confidence": "nominal",
